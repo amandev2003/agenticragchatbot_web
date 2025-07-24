@@ -3,5 +3,5 @@ faiss-cpu
 sentence-transformers
 python-docx
 python-pptx
-PyMuPDF
+pymupdf
 pandas
