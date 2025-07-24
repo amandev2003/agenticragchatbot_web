@@ -1,12 +1,12 @@
 # app.py
 
-import sys
-import os
+import sys, os
 
-# Inject the project root into the path so imports work
-ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-if ROOT_DIR not in sys.path:
-    sys.path.append(ROOT_DIR)
+# 1) Calculate the path to the package root directory:
+PACKAGE_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if PACKAGE_ROOT not in sys.path:
+    sys.path.append(PACKAGE_ROOT)
+
 
 
 import streamlit as st
