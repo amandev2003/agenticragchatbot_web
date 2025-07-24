@@ -1,5 +1,5 @@
 # parsers.py
-import fitz  # PyMuPDF
+import pymupdf as fitz  # PyMuPDF
 import pptx
 import docx
 import pandas as pd
