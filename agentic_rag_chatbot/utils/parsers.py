@@ -1,5 +1,9 @@
 # parsers.py
-import fitz  # PyMuPDF
+try:
+    import fitz
+except ImportError:
+    print("❌ fitz not found. Check PyMuPDF install.")
+
 import pptx
 import docx
 import pandas as pd
